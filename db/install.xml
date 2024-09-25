@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="db" VERSION="2023091700" COMMENT="Database schema for the ChatGPT plugin">
+    <TABLES>
+        <TABLE NAME="local_chatgpt_test" COMMENT="Tabla de prueba">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" COMMENT="ID"/>
+                <FIELD NAME="name" TYPE="varchar" LENGTH="255" NOTNULL="true" COMMENT="Nombre"/>
+            </FIELDS>
+            <PRIMARY KEY="id"/>
+        </TABLE>
+    </TABLES>
+</XMLDB>
